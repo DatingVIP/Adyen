@@ -1,0 +1,25 @@
+{
+    "name": "datingvip/Adyen",
+    "type": "library",
+    "description": "DatingVIP PHP implementation of the Adyen Hosted Payment Pages (HPP)",
+    "keywords": ["adyen","api","payment", "hpp"],
+    "homepage": "https://github.com/DatingVIP/Adyen",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Dragan Dinic",
+            "email": "dragan@dinke.net",
+            "homepage": "http://www.firstbeatmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "datingvip/curl": "^2.0"        
+    },
+    "autoload": {
+        "psr-0": {
+			"DatingVIP": "src"
+		}
+    }
+}
