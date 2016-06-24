@@ -26,7 +26,7 @@ class AdyenHppApi
     /**
      * Default curl setup
      */
-    const CURL_USER_AGENT       = 'DatingVIP-Client/Version:2012.May.01';
+    const CURL_USER_AGENT       = 'DatingVIP-Adyen-Client/Version:2016.Jun.24';
     const CURL_REQUEST_TIMEOUT  = 30;
 
     /**
@@ -79,7 +79,7 @@ class AdyenHppApi
     protected $error_msg;
 
     /**
-     * Instance of API_Client class (curl)
+     * Instance of DatingVIP\cURL\Request lib
      *
      * @var API_Client
      */
