@@ -290,7 +290,6 @@ class AdyenHppApi
         try {
             $response = $this->curl->setCredentials($data['username'], $data['password'])
                                     ->post($this->urls[$this->environment]['modification_rest'], $request);
-
         } catch (\RuntimeException $e) {
             return false;
         }
@@ -334,7 +333,6 @@ class AdyenHppApi
         try {
             $response = $this->curl->setCredentials($data['username'], $data['password'])
                 ->post($this->urls[$this->environment]['modification_rest'], $request);
-
         } catch (\RuntimeException $e) {
             return false;
         }
@@ -398,7 +396,6 @@ class AdyenHppApi
         try {
             $response = $this->curl->setCredentials($data['username'], $data['password'])
                 ->post($this->urls[$this->environment]['modification_rest'], $request);
-
         } catch (\RuntimeException $e) {
             return false;
         }
