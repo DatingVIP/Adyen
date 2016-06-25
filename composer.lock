@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "47a45f9558d46f0390b286dbba0fb8b7",
-    "content-hash": "f33b3499ca25bbf58589375d39535bca",
+    "hash": "95d6f7b52caa7351de0cfffbcca9afe3",
+    "content-hash": "b9574d1d1b86ac883a4f4b2e5b2044b0",
     "packages": [
         {
             "name": "datingvip/curl",
